@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Study Groups</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>Virtual Study Groups</div>
+        <nav>
+            <a href="#">Login / Sign-in</a>
+            <a href="#">Study Resources and Tools</a>
+            <a href="#" class="cta-button">Get in Touch</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Our Mission</h2>
+            <h1>Empowering Students Worldwide</h1>
+        </div>
+        <div class="subtext">Join a Global Learning Community</div>
+    </section>
+    <section class="how-it-works">
+        <img src="https://www.lummi.ai/api/render/image/07bf0afd-ab17-4486-80b1-2f28a123ca12?token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjA3YmYwYWZkLWFiMTctNDQ4Ni04MGIxLTJmMjhhMTIzY2ExMiIsImRvd25sb2FkU2l6ZSI6Im1lZGl1bSIsInJlbmRlclNwZWNzIjp7ImVmZmVjdHMiOnsicmVmcmFtZSI6e319fSwic2hvdWxkQXV0b0Rvd25sb2FkIjpmYWxzZSwianRpIjoiU01rbWNCYnN0QzN4d3pGcG5FMEpkIiwiaWF0IjoxNzQyMDQwMTg5LCJleHAiOjE3NDIwNDAyNDl9.WyYxGfw1SHA-3jdmp84hZ1G8kgqdVgfu_hsiR7eYEaI" alt="Students collaborating at a table">
+        <div class="how-it-works-text">
+            <h2>How It Works</h2>
+            <p>Discover how easy it is to connect with peers for collaborative study sessions.</p>
+            <a href="#" class="cta-button">Join Now and Start Learning</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <img src="icon1.png" alt="Peers Icon">
+            <h3>Connect with Peers</h3>
+            <p>Find study partners who share your interests and goals, making learning more effective and enjoyable.</p>
+        </div>
+        <div class="feature">
+            <img src="icon2.png" alt="Subjects Icon">
+            <h3>Diverse Subjects</h3>
+            <p>Engage in study groups across a wide range of subjects, from mathematics to literature and beyond.</p>
+        </div>
+        <div class="feature">
+            <img src="icon3.png" alt="Scheduling Icon">
+            <h3>Flexible Scheduling</h3>
+            <p>Set your own study times and connect with students from different time zones, ensuring you can learn when it suits you best.</p>
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <img src="avatar1.png" alt="Alice Johnson" class="avatar">
+                <h3>Alice Johnson</h3>
+                <p class="affiliation">Student, University of Learning</p>
+                <p class="quote">"Joining a virtual study group transformed my learning experience. I connected with amazing peers and improved my grades!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="avatar2.png" alt="Mark Smith" class="avatar">
+                <h3>Mark Smith</h3>
+                <p class="affiliation">Graduate, Global University</p>
+                <p class="quote">"The flexibility and diversity of subjects offered made it easy for me to find the right study group for my needs."</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="avatar3.png" alt="Emma Brown" class="avatar">
+                <h3>Emma Brown</h3>
+                <p class="affiliation">High School Student</p>
+                <p class="quote">"I love how I can study with friends from around the world. It makes learning so much more fun!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="signup-container">
+        <h1>Sign Up Today</h1>
+        <p class="subtitle">Become Part of Our Community!</p>
+        <button class="google-signup">
+            <img src="google-icon.png" alt="Google Logo" class="google-logo"> Continue with Google
+        </button>
+        <div class="separator">or</div>
+        <form class="signup-form">
+            <div class="input-group">
+                <label for="name">Enter your name</label>
+                <input type="text" id="username" name="username" placeholder="Enter Your Username">
+            </div>
+            <button type="submit" class="email-signup">Continue with Email</button>
+        </form>
+        <p class="terms">By continuing, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq-header">
+            <h2>FAQS</h2>
+            <p>Find answers to common questions about our platform and how to get started.</p>
+            <a href="#" class="learn-more-button">Learn More</a>
+        </div>
+        <ul class="faq-list">
+            <li><a href="#">What subjects can I study?</a></li>
+            <li><a href="#">How do I join a study group?</a></li>
+            <li><a href="#">Can I create my own group?</a></li>
+            <li><a href="#">What if I need help?</a></li>
+            <li><a href="#">Is there a mobile app?</a></li>
+        </ul>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="send-button">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p class="tagline">We're here to help!</p>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <p>Email</p>
+                <a href="mailto:support@virtualstudygroups.com">support@virtualstudygroups.com</a>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <p>Phone</p>
+                <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Location</p>
+                <p>123 Learning Lane, Knowledge City, Country</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Virtual Study Groups</h3>
+            <p>Learn Together, Succeed Together</p>
+        </div>
+        <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Newsroom</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Features</h3>
+            <ul>
+                <li><a href="#">Global Reach</a></li>
+                <li><a href="#">Study Anytime</a></li>
+                <li><a href="#">Community Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Social</h3>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Threads</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; All rights reserved 2024</p>
+        <ul>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </div>
+</footer>
+
+<section class="newsletter-section">
+    <h2>Join Our Learning Hub</h2>
+    <p>Stay updated with the latest resources and community events.</p>
+    <div class="signup-form">
+        <input type="email" placeholder="Enter your email address">
+        <button class="subscribe-button">Subscribe Now</button>
+    </div>
+</section>
+</body>
+</html>
